@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main()
+int sol2753()
 {
     int year;
 

@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main()
+int sol5597()
 {
     int student[30] = {0};
 
