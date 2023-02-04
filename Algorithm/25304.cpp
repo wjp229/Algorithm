@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main()
+int sol25304()
 {
     int total;
     int cnt;
