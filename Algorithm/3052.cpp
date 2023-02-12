@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main()
+int sol3052()
 {
     bool arr[42] = {false};
     int cnt = 0;
@@ -14,8 +14,6 @@ int main()
         cin >> num;
 
         num %= 42;
-
-        cout << " - " << num << endl;
         
         if(!arr[num])
         {
