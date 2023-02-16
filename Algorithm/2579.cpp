@@ -4,7 +4,7 @@ using namespace std;
 
 int Max(int a, int b) { return a > b ? a : b; }
 
-int main()
+int sol2579()
 {
     int num = 0;
 
@@ -28,4 +28,6 @@ int main()
     }
 
     cout << res[num - 1] << endl;
+
+    return 0;
 }
