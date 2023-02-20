@@ -164,12 +164,15 @@
     <ClCompile Include="10951.cpp" />
     <ClCompile Include="11021.cpp" />
     <ClCompile Include="1149.cpp" />
+    <ClCompile Include="1158.cpp" />
     <ClCompile Include="11726.cpp" />
     <ClCompile Include="1330.cpp" />
     <ClCompile Include="14681.cpp" />
     <ClCompile Include="18108.cpp" />
+    <ClCompile Include="1912.cpp" />
     <ClCompile Include="1920.cpp" />
     <ClCompile Include="1929.cpp" />
+    <ClCompile Include="1992.cpp" />
     <ClCompile Include="2164.cpp" />
     <ClCompile Include="2480.cpp" />
     <ClCompile Include="2525.cpp" />

@@ -2,30 +2,28 @@
 
 using namespace std;
 
-int main()
+int sol2164()
 {
     int n;
     cin >> n;
 
-    int cnt = n;
-    int arr[5000000];
+    int * arr = new int[n*3];
 
-    for(int i = n; i >= 1; i--)
+    int head = 0;
+    int tail = n;
+
+    for(int i = 0; i < n; i++)
     {
-        arr[i] = n - i + 1;
+        arr[i] = i + 1;
     }
     
-    while(cnt != 1)
+    while((tail - head) != 1)
     {
-        cnt--;
-        arr[0] = arr[cnt];
-        for(int i = cnt; i > 0; i--)
-        {
-            arr[i] = arr[i-1];
-        }
+        head++;
+        arr[tail++] = arr[head++];
     }
 
-    cout << arr[1];
+    cout << arr[head];
     
     return 0;
 }
