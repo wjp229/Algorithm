@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main()
+int sol1912()
 {
     int N;
 	
@@ -36,4 +36,6 @@ int main()
         }
     }
     cout << max << endl;
+
+    return 0;
 }

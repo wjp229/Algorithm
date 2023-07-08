@@ -1,5 +1,5 @@
 ﻿#include <iostream>
-#include <cstring>
+#include <string>
 #include <stack>
 
 using namespace std;
@@ -9,22 +9,25 @@ int sol9012()
     int test = 0;
 
     cin >> test;
-    
+
+
     for (int i = 0; i < test; i++)
     {
         stack<char> cnt;
-        char str[50];
+
+        string str;
         cin >> str;
 
-        for (int j = 0; j < strlen(str); j++)
+        for (int j = 0; j < str.length(); j++)
         {
             if (str[j] == '(')
             {
                 cnt.push(str[j]);
             }
+            
             else if (str[j] == ')')
             {
-                if(cnt.empty() || cnt.top() != '(')
+                if(cnt.empty())
                 {
                     cout << "NO\n";
                     break;
@@ -34,13 +37,16 @@ int sol9012()
                     cnt.pop();
                 }
             }
-            if (j == strlen(str) - 1 && cnt.empty())
+
+            if(j == str.length() - 1 && cnt.empty())
+            {
                 cout << "YES\n";
-        }
-        
-        while (!cnt.empty())
-        {
-            cnt.pop();
+            }
+            else if(j == str.length() - 1)// && !cnt.empty())
+                {
+                
+                cout << "NO\n";
+                }
         }
     }
 

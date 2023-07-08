@@ -7,7 +7,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3d766ad-d1d9-4910-b288-d0bf4b921d03" name="Changes" comment="" />
+    <list default="true" id="f3d766ad-d1d9-4910-b288-d0bf4b921d03" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Algorithm/10872.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/15596.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/1914.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/2628.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Algorithm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Algorithm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/1330.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/1330.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/1912.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/1912.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/9012.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/9012.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/Algorithm.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/Algorithm.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/CL.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/CL.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/link.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/link.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/x64/Debug/vc141.idb" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/x64/Debug/vc141.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/x64/Debug/vc141.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/x64/Debug/vc141.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/Algorithm.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Algorithm.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/Algorithm.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Algorithm.pdb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +46,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.56739813&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -108,6 +129,16 @@
       <workItem from="1676593494327" duration="2341000" />
       <workItem from="1676616232712" duration="1950000" />
       <workItem from="1676640491777" duration="593000" />
+      <workItem from="1677400083310" duration="2152000" />
+      <workItem from="1685517520945" duration="1439000" />
+      <workItem from="1685519030511" duration="510000" />
+      <workItem from="1687917604846" duration="3426000" />
+      <workItem from="1688002835831" duration="110000" />
+      <workItem from="1688003638808" duration="557000" />
+      <workItem from="1688101514230" duration="1627000" />
+      <workItem from="1688108236402" duration="2431000" />
+      <workItem from="1688446506810" duration="2347000" />
+      <workItem from="1688814238629" duration="4984000" />
     </task>
     <servers />
   </component>
@@ -116,6 +147,17 @@
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
