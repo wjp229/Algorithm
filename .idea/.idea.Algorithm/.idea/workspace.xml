@@ -8,9 +8,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3d766ad-d1d9-4910-b288-d0bf4b921d03" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Algorithm/18258.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/11279.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/2309.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/5639.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Algorithm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Algorithm/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/17608.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/17608.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/18258.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/18258.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/Algorithm.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/Algorithm.vcxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/CL.command.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/CL.read.1.tlog" afterDir="false" />
@@ -134,6 +136,10 @@
       <workItem from="1688108236402" duration="2431000" />
       <workItem from="1688446506810" duration="2347000" />
       <workItem from="1688814238629" duration="7611000" />
+      <workItem from="1688867961589" duration="870000" />
+      <workItem from="1688880276599" duration="2125000" />
+      <workItem from="1688882676383" duration="1806000" />
+      <workItem from="1688894479073" duration="4019000" />
     </task>
     <servers />
   </component>
