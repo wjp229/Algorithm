@@ -8,11 +8,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3d766ad-d1d9-4910-b288-d0bf4b921d03" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Algorithm/11279.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/2309.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/5639.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/11724.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/1197.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/1541.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/1904.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/2178.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/2252.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/2630.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Algorithm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Algorithm/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/18258.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/18258.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/1074.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/1074.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/1181.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/1181.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/1260.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/1260.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/1914.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/1914.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/1920.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/1920.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/2606.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/2606.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/5639.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/5639.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/Algorithm.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/Algorithm.vcxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/CL.command.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/CL.read.1.tlog" afterDir="false" />
@@ -140,6 +150,15 @@
       <workItem from="1688880276599" duration="2125000" />
       <workItem from="1688882676383" duration="1806000" />
       <workItem from="1688894479073" duration="4019000" />
+      <workItem from="1688955381197" duration="1434000" />
+      <workItem from="1688966175839" duration="8010000" />
+      <workItem from="1688983095882" duration="1124000" />
+      <workItem from="1688986918861" duration="55000" />
+      <workItem from="1689038116792" duration="2811000" />
+      <workItem from="1689048452595" duration="2108000" />
+      <workItem from="1689066292766" duration="1658000" />
+      <workItem from="1689072685476" duration="233000" />
+      <workItem from="1689073013503" duration="2012000" />
     </task>
     <servers />
   </component>

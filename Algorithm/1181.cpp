@@ -1,42 +1,23 @@
-﻿#include <iostream>
+﻿#include <algorithm>
+#include <iostream>
 #include <string>
 #include <list>
 
 using namespace std;
 
-bool Compare(string a, string b)
+int Compare(string a, string b)
 {
-    if (a.length() > b.length())
+    if (a.length() == b.length())
     {
-        return true;
+        return a < b;
     }
-    else if (a.length() < b.length())
+    else
     {
-        return false;
+        return a.length() < b.length();
     }
-    else if(a.length() == b.length())
-    {
-        int Cnt = 0;
-        
-        while (Cnt < a.length())
-        {
-            if ((int)a[Cnt] > (int)b[Cnt])
-            {
-                return true;
-            }
-            else if ((int)b[Cnt] > (int)a[Cnt])
-            {
-                return false;
-            }
-            
-            Cnt++;
-        }
-    }
-
-    return false;
 }
 
-int unsol1181()
+int sol1181()
 {
     cin.tie(nullptr);
     ios::sync_with_stdio(false); 
@@ -56,33 +37,14 @@ int unsol1181()
         words[i] = word;
     }
 
+    sort(words, words+TestCase, Compare);
+
     for (int i = 0; i < TestCase; i++)
     {
-        for (int j = 1; j < TestCase - i; j++)
+        if(i != TestCase-1 && words[i] == words[i+1])
         {
-            if(words[j-1] == words[j])
-            {
-                for(int k = j; k < TestCase; k++)
-                {
-                    words[k] = "";
-                }
-
-                TestCase--;
-            }
-
-            bool bIsShort = Compare(words[j-1], words[j]);
-            
-            if (bIsShort)
-            {
-                string tmp = words[j - 1];
-                words[j - 1] = words[j];
-                words[j] = tmp;
-            }
+            continue;
         }
-    }
-    
-    for (int i = 0; i < TestCase; i++)
-    {
         
         cout << words[i] << "\n";
     }

@@ -2,40 +2,51 @@
 
 using namespace std;
 
-struct Computer
-{
-    int connectCnt = 0;
-    int * connected;
-    
-};
+int ComputerConnected[101][101];
+int Visited[101];
 
-int ConnectCheck(const Computer * connect)
+int computerNum, connectNum;
+
+int CheckComputer(int N)
 {
-    int connectCount = 0;
+    if(Visited[N] == 1)
+    {
+        return 0;
+    }
+
+    Visited[N] = 1;
+
+    int result = 1;
     
+    for(int i = 1; i <= computerNum; i++)
+    {
+        if(ComputerConnected[N][i] == 1)
+        {
+            //result++;
+            result += CheckComputer(i);
+        }
+    }
     
-   return 0; 
+    return result;
 }
 
 int sol2606()
 {
-    int computerNum, connectNum;
     
     cin >> computerNum >> connectNum;
 
-    Computer * computer = new Computer[computerNum];
-    computer->connected = new int[connectNum];
-    
+
     for(int i = 0; i < connectNum; i++)
     {
-        int x, y;
-        cin >> x >> y;
+        int F, S;
 
-        computer[x].connected[computer[x].connectCnt++] = y;
-        computer[y].connected[computer[y].connectCnt++] = x;
+        cin >> F >> S;
+
+        ComputerConnected[F][S] = 1;
+        ComputerConnected[S][F] = 1;
     }
 
-    
+    cout << CheckComputer(1) - 1;
     
     return 0;
 }

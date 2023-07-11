@@ -1,55 +1,84 @@
-﻿#include <complex.h>
-#include <iostream>
+﻿#include <iostream>
+#include <queue>
 
 using namespace std;
 
+int BFSDFSNode[1001][1001];
+int VisitBFSDFS[1001];
+
+queue<int> BFSQueue;
+
+void ClearVisit(int N)
+{
+    for(int i = 1; i <= N; i++)
+    {
+        VisitBFSDFS[i] = 0;
+    }
+}
+
+void CheckBFS(int N, int Total)
+{
+    BFSQueue.push(N);
+    VisitBFSDFS[N] = 1;
+
+    while(!BFSQueue.empty())
+    {
+        int H = BFSQueue.front();
+        BFSQueue.pop();
+        
+        for(int i = 1; i <= Total; i++)
+        {
+            if(VisitBFSDFS[i] != 1 && BFSDFSNode[i][H] == 1)
+            {
+                VisitBFSDFS[i] = 1;
+                BFSQueue.push(i);
+            }
+        }
+
+        cout << H << " ";
+    }
+}
+
+void CheckDFS(int N, int Total)
+{
+    cout << N <<" ";
+
+    VisitBFSDFS[N] = 1;
+    
+    for(int i = 1; i <= Total; i++)
+    {
+        if(VisitBFSDFS[i] != 1 && BFSDFSNode[N][i] == 1)
+        {
+            CheckDFS(i, Total);
+        }
+    }
+}
+
 int sol1260()
 {
-    int pointNum, lineNum, startNum;
+    int N, M, V;
 
-    cin >> pointNum >> lineNum >> startNum;
+    cin >> N >> M >> V;
 
-    bool** connect = new bool*[pointNum];
-    for (int i = 0; i < pointNum; i++)
+    for(int i = 0; i < M; i++)
     {
-        connect[i] = new bool[pointNum];
+        int F, S;
+
+        cin >> F >> S;
+
+        BFSDFSNode[F][S] = 1;
+        BFSDFSNode[S][F] = 1;
     }
 
-    for (int i = 0; i < lineNum; i++)
-    {
-        int start, end;
-        cin >> start >> end;
-        connect[start-1][end-1] = true;
-        connect[end-1][start-1] = true;
-    }
+    ClearVisit(N);
 
-    cout << "DFS\n";
-
-    for (int i = 0; i < pointNum; i++)
-    {
-        for (int j = 0; j < pointNum; j++)
-        {
-            if (connect[i][j] == true)
-                cout << connect[i][j];
-        }
-    }
+    CheckDFS(V, N);
+    
     cout << "\n";
+    
+    ClearVisit(N);
 
-    cout << "BFS\n";
-    cout << startNum << " ";
-    while(true)
-    {
-        for(int i = 0; i < pointNum; i++)
-        {
-            if(connect[startNum-1][i])
-            {
-                cout << i << " ";
-                continue;
-            }
-            
-        }
-    }
-    cout << "\n";
+    CheckBFS(V, N);
 
     return 0;
 }
