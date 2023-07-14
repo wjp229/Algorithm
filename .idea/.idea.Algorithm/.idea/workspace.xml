@@ -7,38 +7,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3d766ad-d1d9-4910-b288-d0bf4b921d03" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Algorithm/11724.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/1197.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/1541.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/1904.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/2178.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/2252.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/2630.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Algorithm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Algorithm/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/1074.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/1074.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/1181.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/1181.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/1260.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/1260.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/1914.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/1914.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/1920.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/1920.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/2606.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/2606.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/5639.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/5639.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/Algorithm.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/Algorithm.vcxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/CL.command.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/CL.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/CL.write.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/link.command.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/link.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/link.write.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/x64/Debug/vc141.idb" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/x64/Debug/vc141.idb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/x64/Debug/vc141.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/x64/Debug/vc141.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x64/Debug/Algorithm.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Algorithm.ilk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x64/Debug/Algorithm.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Algorithm.pdb" afterDir="false" />
-    </list>
+    <list default="true" id="f3d766ad-d1d9-4910-b288-d0bf4b921d03" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../../../Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/include/ostream" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -159,6 +135,9 @@
       <workItem from="1689066292766" duration="1658000" />
       <workItem from="1689072685476" duration="233000" />
       <workItem from="1689073013503" duration="2012000" />
+      <workItem from="1689135141687" duration="110000" />
+      <workItem from="1689135945568" duration="4753000" />
+      <workItem from="1689140766510" duration="2351000" />
     </task>
     <servers />
   </component>
