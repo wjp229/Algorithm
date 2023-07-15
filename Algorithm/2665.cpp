@@ -10,7 +10,7 @@ int VisitRoom[51][51];
 int DxRoom[4] = { -1, 1, 0, 0};
 int DyRoom[4] = { 0, 0, -1, 1};
 
-int main()
+int sol2665()
 {
     int N;
     cin >> N;
