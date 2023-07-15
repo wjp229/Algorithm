@@ -5,7 +5,7 @@ using namespace std;
 
 int House[200000];
 
-int main()
+int unsol2110()
 {
     int N, C;
 

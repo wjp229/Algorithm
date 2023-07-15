@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main()
+int unsol1629()
 {
     long long A, B, C;
 
