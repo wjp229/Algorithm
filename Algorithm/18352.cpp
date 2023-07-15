@@ -5,7 +5,7 @@
 using namespace std;
 
 
-int main()
+int unsol18352()
 {
     int N, M;
 
@@ -14,13 +14,13 @@ int main()
 
     cin >> N >> M >> EndK >> StartX;
     
-    int** CityN = new int*[N+1];
+    int** CityN = new int*[N];
     
-    for(int i = 0; i <= N; i++)
+    for(int i = 0; i < N; i++)
     {
-        CityN[i] = new int[N+1];
+        CityN[i] = new int[N];
 
-        for(int j = 0; j <= N; j++)
+        for(int j = 0; j < N; j++)
         {
             CityN[i][j] = 0;
         }
@@ -32,12 +32,12 @@ int main()
 
         cin >> S >> E;
         
-        CityN[S][E] = 1;
+        CityN[S-1][E-1] = 1;
     }
     
     queue<int> CurNum;
 
-    int* Visited = new int[N+1];
+    int* Visited = new int[N];
     
     int DistCnt = 0;
 
@@ -50,11 +50,11 @@ int main()
         CurNum.pop();
         DistCnt++;
         
-        for(int i = 1; i <= N; i++)
+        for(int i = 0; i < N; i++)
         {
-            if(Visited[i] < 1 && CityN[Head][i] == 1)
+            if(Visited[i] < 1 && CityN[Head-1][i] == 1)
             {
-                Visited[i] = DistCnt;
+                Visited[i] = Visited[Head-1] + 1;
                 
                 CurNum.push(i);
             }
@@ -64,7 +64,7 @@ int main()
 
     bool bHasVisited = false;
 
-    for(int i = 1; i <= N; i++)
+    for(int i = 0; i < N; i++)
     {
         if(Visited[i] == EndK)
         {
@@ -72,7 +72,6 @@ int main()
             bHasVisited = true;
         }
     }
-
     if(!bHasVisited)
         cout << -1 << '\n';
 

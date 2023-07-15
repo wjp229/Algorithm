@@ -1,57 +1,61 @@
-﻿#include <algorithm>
-#include <iostream>
+﻿#include <iostream>
 #include <string>
 #include <list>
 #include <queue>
+#include <stack>
 
 using namespace std;
 
 int MinMaze;
 int TargetN, TargetM;
+int Map[101][101];
 int VisitMaze[101][101];
 int Dist[101][101];
+int dx[4] = { -1, 1, 0, 0};
+int dy[4] = { 0, 0, -1, 1};
 
-void FindMaze(int** Map, int x, int y)
+void FindMaze(int x, int y)
 {
     // Check Visit
     VisitMaze[x][y] = 1;
     
-    // Check if x and y is Target
-    if(TargetN == x && TargetM == y)
-    {
-        MinMaze++;
-
-        return;
-    }
-
     queue<pair<int, int>> MazeQueue;
     MazeQueue.push(make_pair(x, y));
+    VisitMaze[x][y] = 1;
     Dist[x][y] = 1;
-
+    
     while (!MazeQueue.empty())
     {
-        int Tx = MazeQueue.front().first;
-        int Ty = MazeQueue.front().second;
+        int CurCnt = VisitMaze[MazeQueue.front().first][MazeQueue.front().second];
+        
+        for(int ix = 0; ix < 4; ix++)
+        {
+            int Tx = MazeQueue.front().first + dx[ix];
+            int Ty = MazeQueue.front().second + dy[ix];
+            
+            if((Tx > 0) && (Tx <= TargetM) && (Ty > 0) && (Ty <= TargetN) && VisitMaze[Tx][Ty] < 1 && Map[Tx][Ty] == 1)
+            {
+              
+                VisitMaze[Tx][Ty] = CurCnt+1;
+                MazeQueue.push(make_pair(Tx, Ty));
+            }
+        }
 
         MazeQueue.pop();
-
-        //if()
     }
     
 
     // If x and y is not Target Move to Next
 }
 
-int unsol2178()
+int sol2178()
 {
-    int** Map = new int*[TargetN+1];
 
-    cin >> TargetN >> TargetM;
+    cin >> TargetM >> TargetN;
 
-    for(int i = 1; i <= TargetN; i++)
+    for(int i = 1; i <= TargetM; i++)
     {
-        Map[i] = new int[TargetM+1];
-        for(int j = 1; j <= TargetM; j++)
+        for(int j = 1; j <= TargetN; j++)
         {
             char Val;
 
@@ -63,16 +67,9 @@ int unsol2178()
         }
     }
 
-    for(int i = 1; i <= TargetN; i++)
-    {
-        for(int j = 1; j <= TargetM; j++)
-        {
-            cout << Map[i][j] << " ";
-        }
-        cout << "\n";
-    }
+    FindMaze(1, 1);
 
-    FindMaze(Map, 1, 1);
+    cout << VisitMaze[TargetM][TargetN];
     
     return 0;
 }

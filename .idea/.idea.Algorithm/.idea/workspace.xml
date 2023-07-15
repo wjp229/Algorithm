@@ -7,7 +7,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3d766ad-d1d9-4910-b288-d0bf4b921d03" name="Changes" comment="" />
+    <list default="true" id="f3d766ad-d1d9-4910-b288-d0bf4b921d03" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Algorithm/12865.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/1707.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/2493.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/2665.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/7569.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/9663.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Algorithm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Algorithm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/18352.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/18352.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/2178.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/2178.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/Algorithm.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/Algorithm.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/Algorithm.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/Algorithm.lastbuildstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/CL.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/CL.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/link.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/link.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/x64/Debug/vc141.idb" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/x64/Debug/vc141.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/x64/Debug/vc141.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/x64/Debug/vc141.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/Algorithm.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Algorithm.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/Algorithm.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Algorithm.pdb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +56,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pathVariables&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -138,6 +160,8 @@
       <workItem from="1689135141687" duration="110000" />
       <workItem from="1689135945568" duration="4753000" />
       <workItem from="1689140766510" duration="2351000" />
+      <workItem from="1689302557171" duration="13374000" />
+      <workItem from="1689331812705" duration="8706000" />
     </task>
     <servers />
   </component>
@@ -159,5 +183,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
