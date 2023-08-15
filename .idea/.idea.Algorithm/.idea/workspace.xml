@@ -8,12 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3d766ad-d1d9-4910-b288-d0bf4b921d03" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Algorithm/1655.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/3055.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Algorithm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Algorithm/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/2470.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/2470.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/2493.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/2493.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/1655.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/1655.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/Algorithm.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/Algorithm.vcxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/Algorithm.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/Algorithm.lastbuildstate" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/CL.command.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/CL.read.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/x64/Debug/Algorithm.tlog/CL.write.1.tlog" afterDir="false" />
@@ -164,6 +162,7 @@
       <workItem from="1691755618493" duration="1407000" />
       <workItem from="1691978588085" duration="1819000" />
       <workItem from="1691991845845" duration="754000" />
+      <workItem from="1692086492974" duration="2411000" />
     </task>
     <servers />
   </component>
